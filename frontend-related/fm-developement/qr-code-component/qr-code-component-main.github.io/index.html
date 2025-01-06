@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frontend mentor challenge one, Scan QR code to get started!">
+  <meta name="author" content="Aditya Alshi">
+
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -11,9 +14,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
-  <title>Frontend Mentor | QR code component</title>
+  <title>Frontend Challenge 1 with Frontend Mentor Projects</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     :root {
       --background: hsl(211, 45%, 89%);
@@ -53,6 +55,7 @@
       background-color: var(--white);
       padding: 1.6rem 1.6rem 4rem 1.6rem;
       border-radius: 2rem;
+      text-align: center;
     }
 
     .attribution img {
@@ -61,21 +64,17 @@
       margin-bottom: 2.4rem;
     }
 
-    .attribution .inner-lower {
-      padding: 0 1.6rem;
-      text-align: center;
-    }
-
-    .attribution .inner-lower .bold-p {
+    .attribution .bold-p {
       font-weight: 700;
       font-size: 2.2rem;    
-      margin-bottom: 1.6rem;
+      margin: 0 1.6rem 1.6rem 1.6rem;
       line-height: 120%;
       letter-spacing: 0;
       color: var(--text-color-dark);
     }
     
-    .attribution .inner-lower .light-p {
+    .attribution .light-p {
+      margin: 0 1.6rem 0 1.6rem;
       font-weight: 400;
       font-size: 1.5rem;
       line-height: 120%;
@@ -88,12 +87,11 @@
 </head>
 
 <body >
+  <h1 style="display:none;">Frontend Mentor Challenge 1</h1>
   <main class="attribution">
     <img src="./images/image-qr-code.png" alt="QR code linking to Frontend Mentor website for front-end development projects">
-    <div class="inner-lower" aria-label="QR code information section">
-      <h1 class="bold-p">Improve your front-end skills by building projects</h1>
-      <p class="light-p">Scan the QR code to visit Frontend Mentor and take your codingskills to the next level</p>
-    </div>
+    <h2 class="bold-p">Improve your front-end skills by building projects</h2>
+    <p class="light-p">Scan the QR code to visit Frontend Mentor and take your codingskills to the next level</p>
   </main>
 </body>
 
