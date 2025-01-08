@@ -135,7 +135,7 @@ Since this project specifically mentioned to avoid media queries, for the coming
 
 - Teodor Jenkler - [@TedJenkler](https://www.frontendmentor.io/profile/TedJenkler) Thank you so much for you feedback and suggestions. I have used clamp function, suggested by you, in this project. 
 
-# I need help with ..
+# I need help with
 ## How was my approach?
 - If you can give me a feedback on my approch itself. It will be really helpful. 
 - The font looks weird in Mobile-L-425px Dimension. But looks goot with 320px and other above 425px. ![Mobile-L-425px](./assets/images/Mobile-L-425px.jpeg)
