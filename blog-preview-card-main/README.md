@@ -115,15 +115,15 @@ This summarizes my design and development approach for this project. Please shar
 
 ### What I learned
 
-I have learned to use clamp function in this project 
+I learned to use the clamp() function in this project.
 
 ### Continued development
 
-Since this project specifically mentioned to avoid media queries, for the coming project I'll learn about media queries. 
+Since this project specifically avoided media queries, I plan to focus on learning and implementing them in upcoming projects.
 
 ### Useful resources
 
-- [MDN Docs](https://developer.mozilla.org/)
+- [MDN Web Docs](https://developer.mozilla.org/)
 
 ## Author
 
@@ -133,10 +133,10 @@ Since this project specifically mentioned to avoid media queries, for the coming
 
 ## Acknowledgments
 
-- Teodor Jenkler - [@TedJenkler](https://www.frontendmentor.io/profile/TedJenkler) Thank you so much for you feedback and suggestions. I have used clamp function, suggested by you, in this project. 
+- Teodor Jenkler - [@TedJenkler](https://www.frontendmentor.io/profile/TedJenkler) provided valuable feedback and suggestions.
 
 # I need help with
 ## How was my approach?
-- If you can give me a feedback on my approch itself. It will be really helpful. 
-- The font looks weird in Mobile-L-425px Dimension. But looks goot with 320px and other above 425px. ![Mobile-L-425px](./assets/images/Mobile-L-425px.jpeg)
-- I have reorganised my github repo. Made braches for seperate project and left the main branch empty. What do you think about it?
+- I would appreciate feedback for the approach I took on this project. 
+- The font appears unusual at the Mobile-L 425px dimension but looks fine at 320px and resolutions above 425px.
+- Created branches for separate projects and left the main branch empty. Is that a good practice?
