@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta >
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
   <title>Frontend Mentor | Social links profile</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -22,9 +27,11 @@
     }
 
     * {
-      margin: 0; padding: 0; box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-    
+
     html {
       font-size: 10px;
     }
@@ -33,13 +40,15 @@
       font-family: "Inter", serif;
       height: 100vh;
       display: flex;
-      justify-content: center; align-items: center;
+      justify-content: center;
+      align-items: center;
       background-color: var(--the-dark-grey-900);
     }
 
     main {
       color: var(--the-white);
-      display: flex; flex-direction: column;
+      display: flex;
+      flex-direction: column;
       align-items: center;
       background-color: var(--the-medium-grey-800);
       padding: 2rem;
@@ -59,14 +68,14 @@
       font-size: clamp(1.9rem, 1.9rem + 1vw, 2.1rem);
       font-weight: 500;
     }
-    
+
     main h2 {
       margin-top: 0.8rem;
       font-size: clamp(1rem, 1rem + 1vw, 1.2rem);
       font-weight: 600;
       color: var(--the-green);
     }
-    
+
     main h3 {
       margin-top: 2rem;
       margin-bottom: 1.5rem;
@@ -92,32 +101,38 @@
       color: var(--the-dark-grey-900);
     }
 
+    *:focus-visible {
+      outline: 2px solid var(--the-green);
+      outline-offset: 2px;
+    }
+
 
     @media screen and (max-width:768px) {
       main {
         width: 50%;
       }
     }
+
     @media screen and (max-width:450px) {
       main {
-        width: 90% ;
+        width: 90%;
       }
     }
-
-
   </style>
 </head>
+
 <body>
-  <main tabindex="0">
-    <img tabindex="1" src="./assets/images/avatar-jessica.jpeg" alt="Profile image of Jessica Randall">
-    <h1 tabindex="2">Jessica Randall</h1>
-    <h2 tabindex="3" aria-label="Jessica lives in">London, United Kingdom</h2>
-    <h3 tabindex="4" aria-label="Jessica is a">"Front-end developer and avid reader"</h3>
-    <a href="#">GitHub</a>
-    <a href="#">Frontend Mentor</a>
-    <a href="#">LinkedIn</a>
-    <a href="#">Twitter</a>
-    <a href="#">Instagram</a>
+  <main>
+    <img tabindex="0" src="./assets/images/avatar-jessica.jpeg" alt="Profile image of Jessica Randall">
+    <h1 tabindex="0">Jessica Randall</h1>
+    <h2 tabindex="0">London, United Kingdom</h2>
+    <h3 tabindex="0">"Front-end developer and avid reader"</h3>
+    <a href="#" aria-label="Visit Jessica's GitHub Profile">GitHub</a>
+    <a href="#" aria-label="Visit Jessica's Frontend Mentor Profile">Frontend Mentor</a>
+    <a href="#" aria-label="Visit Jessica's LinkedIn Profile">LinkedIn</a>
+    <a href="#" aria-label="Visit Jessica's Twitter Profile">Twitter</a>
+    <a href="#" aria-label="Visit Jessica's Instagram Profile">Instagram</a>
   </main>
 </body>
+
 </html>
